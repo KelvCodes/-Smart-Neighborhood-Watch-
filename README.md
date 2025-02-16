@@ -34,3 +34,8 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 
 ---
 ## 🚀 How to Use
+1. **Click "Report an Incident"** and enter the details.  
+2. **View live alerts** to stay informed.  
+3. **Check the incident map** for reported locations.  
+4. **Get push notifications** for new incidents.  
+5. **Check in as safe** when needed. 

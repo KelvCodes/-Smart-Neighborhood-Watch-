@@ -33,3 +33,4 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 | ![Push Notifications](https://img.shields.io/badge/Push%20Notifications-FF4500?style=for-the-badge) | Alerts users of new incidents |
 
 ---
+## 🚀 How to Use

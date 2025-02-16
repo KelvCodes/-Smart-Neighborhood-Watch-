@@ -15,3 +15,5 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 - ✅ **✅ Safety Check-In** – Users can mark themselves as safe.
 - ✅ **📱 Fully Responsive UI** – Works seamlessly on mobile, tablet, and desktop.
 - ✅ **💾 Local Storage Support** – Saves incidents locally without requiring a backend.
+
+  ---

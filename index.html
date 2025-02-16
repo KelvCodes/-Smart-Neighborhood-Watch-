@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Neighborhood Watch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="assets/logo.png" alt="Smart Neighborhood Watch Logo" class="logo">
+        <h1>Smart Neighborhood Watch</h1>
+        <p>Stay informed. Stay safe.</p>
+    </header>
+
+    <main>
+        <!-- Report an Incident -->
+        <section id="report-section">
+            <h2>🚨 Report an Incident</h2>
+            <form id="incident-form">
+                <input type="text" id="incident-title" placeholder="Incident Title" required>
+                <textarea id="incident-description" placeholder="Describe the incident..." required></textarea>
+                <button type="submit">Submit Report</button>
+            </form>
+        </section>
+
+        <!-- Live Alerts -->
+        <section id="alerts-section">
+            <h2>⚠️ Live Alerts</h2>
+            <ul id="alert-list">
+                <!-- Alerts will be dynamically inserted here -->
+            </ul>
+        </section>
+
+        <!-- Live Map -->
+        <section id="map-section">
+            <h2>🗺️ Live Incident Map</h2>
+            <img src="assets/live-map.png" alt="Live Incident Map" class="map">
+        </section>
+
+        <!-- Safety Check-In -->
+        <section id="safety-section">
+            <h2>✅ Safety Check-In</h2>
+            <button id="safe-button">I'm Safe</button>
+            <p id="safe-status"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

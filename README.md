@@ -12,3 +12,4 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 - ✅ **⚠️ Live Alerts** – Real-time display of reported incidents.
 - ✅ **🗺️ Interactive Incident Map** – Displays all incidents on a visual map.
 - ✅ **🔔 Push Notifications** – Sends alerts to nearby users.
+- ✅ **✅ Safety Check-In** – Users can mark themselves as safe.

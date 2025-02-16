@@ -23,3 +23,5 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 
 ---
 ## 🛠 Tech Stack 
+| Technology | Purpose |
+|------------|---------|

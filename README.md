@@ -44,7 +44,7 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 ## 📜 Installation 
 1. Clone this repository to your local machine:  
    ```bash  
-   git clone https://github.com/yourusername/smart-neighborhood-watch .git  
+   git clone https://github.com/yourusername/smart-neighborhood-watch.git  
    ```  
 
 2. Open the `index.html` file in your favorite web browser. 🌐  

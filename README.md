@@ -7,3 +7,4 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 🚀 **Built with HTML, CSS, and JavaScript** – No backend required!
 
 ---
+## 🌟 Features

@@ -41,3 +41,4 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 5. **Check in as safe** when needed.
 
    ---
+## 📜 Installation 

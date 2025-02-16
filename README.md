@@ -13,4 +13,5 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 - ✅ **🗺️ Interactive Incident Map** – Displays all incidents on a visual map.
 - ✅ **🔔 Push Notifications** – Sends alerts to nearby users.
 - ✅ **✅ Safety Check-In** – Users can mark themselves as safe.
-- ✅ **📱 Fully Responsive UI** – Works seamlessly on mobile, tablet, and desktop. 
+- ✅ **📱 Fully Responsive UI** – Works seamlessly on mobile, tablet, and desktop.
+- ✅ **💾 Local Storage Support** – Saves incidents locally without requiring a backend.

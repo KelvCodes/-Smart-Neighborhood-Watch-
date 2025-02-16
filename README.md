@@ -29,3 +29,5 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 | ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Styling and layout |
 | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Frontend interactivity |
 | ![Leaflet.js](https://img.shields.io/badge/Leaflet.js-199900?style=for-the-badge&logo=leaflet&logoColor=white) | Live incident map |
+| ![LocalStorage](https://img.shields.io/badge/LocalStorage-0000FF?style=for-the-badge) | Saves incident data locally |
+| ![Push Notifications](https://img.shields.io/badge/Push%20Notifications-FF4500?style=for-the-badge) | Alerts users of new incidents |

@@ -10,3 +10,4 @@ Users can **report incidents**, view a **live incident map**, receive **push not
 ## 🌟 Features
 - ✅ **📢 Report an Incident** – Users can submit safety reports with details.
 - ✅ **⚠️ Live Alerts** – Real-time display of reported incidents.
+- ✅ **🗺️ Interactive Incident Map** – Displays all incidents on a visual map.

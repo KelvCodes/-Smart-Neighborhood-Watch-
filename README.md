@@ -19,7 +19,7 @@ Users can **report incidents**, view a **live incident map**, receive **push not
   ---
 ## 🎬 Live Demo 
 
-🔗 **[Try It Now](https://your-github-username.github.io/community-safety-alert/)**  
+🔗 **[Try It Now](https://neighborhood-watch.netlify.app/)**  
 
 ---
 ## 🛠 Tech Stack 

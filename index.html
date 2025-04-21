@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Neighborhood Watch</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <img src="assets/logo.png" alt="Logo" class="logo">
+                <div>
+                    <h1>Smart Neighborhood Watch</h1>
+                    <p class="tagline">Stay informed. Stay safe.</p>
+                </div>
+            </div>
+            <button id="theme-toggle" class="btn-icon" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+    </header>
 
+    <main class="container">
+        <!-- Incident Reporting -->
+        <section class="card">
+            <h2><i class="fas fa-bell"></i> Report Incident</h2>
+            <form id="incident-form" class="form">
+                <div class="form-group">
+                    <input type="text" id="incident-title" placeholder="Title (e.g., Suspicious Vehicle)" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="incident-description" placeholder="Description..." required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="button" id="get-location" class="btn btn-secondary">
+                        <i class="fas fa-location-dot"></i> Use My Location
+                    </button>
+                    <small id="location-status">Location not set</small>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i> Submit Report
+                </button>
+            </form>
+        </section>
+
+        <!-- Live Alerts -->
+        <section class="card">
+            <h2><i class="fas fa-triangle-exclamation"></i> Live Alerts</h2>
+            <div id="alert-list" class="alert-list"></div>
+        </section>
+
+        <!-- Interactive Map -->
+        <section class="card map-section">
+            <h2><i class="fas fa-map-location-dot"></i> Incident Map</h2>
+            <div id="map"></div>
+        </section>
+
+        <!-- Safety Check-In -->
+        <section class="card">
+            <h2><i class="fas fa-user-shield"></i> Safety Check-In</h2>
+            <button id="safe-button" class="btn btn-success">
+                <i class="fas fa-check"></i> I'm Safe
+            </button>
+            <p id="safe-status" class="status"></p>
+            <div class="safety-stats">
+                <span id="last-checkin">Last check-in: Never</span>
+                <span id="safe-count">Total check-ins: 0</span>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>

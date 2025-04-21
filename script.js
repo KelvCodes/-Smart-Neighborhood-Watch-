@@ -1,12 +1,6 @@
  description = document.getElementById("incident-description").value;
 
-    if (title.trim() === "" || description.trim() === "") {
-        alert("Please enter valid incident details.");
-        return;
-    }
-
-    let alertList = document.getElementById("alert-list");
-    let listItem = document.createElement("li");
+    i= document.createElement("li");
     listItem.innerHTML = `<strong>${title}</strong> - ${description}`;
     alertList.prepend(listItem);
 

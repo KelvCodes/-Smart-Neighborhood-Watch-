@@ -1,8 +1,5 @@
 
-    // Clear fields
-    document.getElementById("incident-title").value = "";
-    document.getElementById("incident-description").value = "";
-});
+
 
 // Safety Check-In Button
 document.getElementById("safe-button").addEventListener("click", function() {

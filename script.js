@@ -1,9 +1,4 @@
-// Incident Report Submission
-document.getElementById("incident-form").addEventListener("submit", function(event) {
-    event.preventDefault();
-
-    let title = document.getElementById("incident-title").value;
-    let description = document.getElementById("incident-description").value;
+ description = document.getElementById("incident-description").value;
 
     if (title.trim() === "" || description.trim() === "") {
         alert("Please enter valid incident details.");
